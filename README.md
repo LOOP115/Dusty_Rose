@@ -4,6 +4,8 @@
 
 ### [Specification](https://github.com/LOOP115/Dusty_Rose/blob/main/resources/ass1-spec.pdf)
 
+### [Report](resources/PentestReport.pdf)
+
 
 
 ### Testing Scenario (75%)
@@ -46,7 +48,7 @@ For this assignment, we expect a professionally written report, provided to the 
 ### Submission
 
 * All students must submit a single zip file with all their code and a separate PDF version of their report (PDF not in the zip).
-* The zip must be named <username>-assignment1.zip (e.g. testuser1 assignment1.zip).
+* The zip must be named `<username>-assignment1.zip` (e.g. `testuser1-assignment1.zip`).
 
 * All code for each challenge must be clearly labelled and stored in a separate file, so it is not confused with the code for other challenges.
 * Finally, all code must be referenced within the report. This implies that there will be code in both the report and the separate code file for each task.

